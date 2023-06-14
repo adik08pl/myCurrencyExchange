@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.stempien.mycurrencyexchange.HelloController">
+  <tabs>
+      <Tab text="Strona powitalna">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="67.0" layoutY="36.0" prefHeight="70.0" prefWidth="465.0" text="Witaj w naszym kantorze!">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="172.0" layoutY="106.0" prefHeight="98.0" prefWidth="255.0" text="Działamy już 2 godziny">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="110.0" layoutY="186.0" prefHeight="98.0" prefWidth="379.0" text="Najlepsze ceny na tym laptopie">
+                     <font>
+                        <Font size="27.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+    <Tab text="Aktualne kursy popularnych walut">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="89.0" layoutY="14.0" prefHeight="38.0" prefWidth="91.0" text="Nazwa:">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="372.0" layoutY="14.0" prefHeight="38.0" prefWidth="91.0" text="Kurs:">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblDolarCourse" layoutX="372.0" layoutY="52.0" prefHeight="34.0" prefWidth="148.0" text="0.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="89.0" layoutY="52.0" prefHeight="34.0" prefWidth="217.0" text="Dolar amerykański">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="89.0" layoutY="86.0" prefHeight="34.0" prefWidth="217.0" text="Euro">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblEuroCourse" layoutX="372.0" layoutY="86.0" prefHeight="34.0" prefWidth="148.0" text="0.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblJenCourse" layoutX="372.0" layoutY="120.0" prefHeight="34.0" prefWidth="148.0" text="0.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblFrankCourse" layoutX="372.0" layoutY="154.0" prefHeight="34.0" prefWidth="148.0" text="0.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="89.0" layoutY="120.0" prefHeight="34.0" prefWidth="217.0" text="Jen">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="89.0" layoutY="154.0" prefHeight="34.0" prefWidth="217.0" text="Frank szwajcarski">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Kupuj i sprzedawaj">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
